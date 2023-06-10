@@ -594,7 +594,7 @@ export const modifyCategoryData = (fileData, category) => {
 
 export const imageProbability = async (category) => {
   return await category.map((items) => {
-    console.log("🚀 ~ file: abi.ts:597 ~ returnawaitcategory.map ~ items:", typeof items?.userProbability)
+    // console.log("🚀 ~ file: abi.ts:597 ~ returnawaitcategory.map ~ items:", typeof items?.userProbability)
     if (items?.userProbability) {
       let fileLength = 0;
       const totalProbability = items?.file?.reduce((total, item, index) => {
