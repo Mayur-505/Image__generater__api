@@ -76,7 +76,7 @@ export class Controller {
         200
       );
     } catch (err) {
-      // console.log("err", err);
+      console.log("err", err);
       return SendErrorResponse(res, err, 500);
     }
   };
