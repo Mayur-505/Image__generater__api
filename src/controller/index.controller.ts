@@ -76,8 +76,8 @@ export class Controller {
         200
       );
     } catch (err) {
-      console.log("err", err);
-      return SendErrorResponse(res, "Something went wrong!", err, 500);
+      // console.log("err", err);
+      return SendErrorResponse(res, err, 500);
     }
   };
 }
